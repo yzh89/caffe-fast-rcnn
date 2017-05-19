@@ -1,13 +1,10 @@
 #include <vector>
 
-#include "hdf5.h"
-#include "hdf5_hl.h"
+#include "hdf5/serial/hdf5.h"
+#include "hdf5/serial/hdf5_hl.h"
 
-#include "caffe/blob.hpp"
-#include "caffe/common.hpp"
-#include "caffe/layer.hpp"
+#include "caffe/layers/hdf5_output_layer.hpp"
 #include "caffe/util/hdf5.hpp"
-#include "caffe/vision_layers.hpp"
 
 namespace caffe {
 
